@@ -1,0 +1,40 @@
+/* body{height: 2000px;} */
+
+/* fixed position */
+.fixed{
+    background-color: blueviolet;
+    width: 150px;
+    height: 300px;
+    position: fixed;
+    top: 50px;
+    left:0 ;
+}
+
+/* absolute position */
+.absolute{
+    background-color: red;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left:150px ;
+}
+/* relative position */
+/* we give the relative property for the parent */
+.relative-parent{
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left:400px ;
+}
+/* we give the absolute property for the child */
+.absolute-child{
+    background-color: teal;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}

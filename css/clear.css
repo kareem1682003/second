@@ -1,0 +1,18 @@
+/* group class */
+.size{
+    width: 200px;
+    height: 200px;
+}
+.red{
+    background-color: red;
+    float: left;
+}
+.blue{
+    background-color: blue;
+    /* float: left; */
+
+}
+/* clear float */
+.clr{
+    clear: both;
+}
